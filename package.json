@@ -1,0 +1,25 @@
+{
+  "scripts": {
+    "start": "electron .",
+    "dist": " npm run dist:win",
+    "dist:osx": "build --platform darwin --arch all -d",
+    "dist:win": "build --platform win32 --arch all -d",
+    "dist:linux": "build --platform linux --arch all -d"
+  },
+  "build": {
+    "asar": false,
+    "iconUrl": "http://7xsec6.com1.z0.glb.clouddn.com/icon.ico",
+    "app-bundle-id": "quick-start",
+    "app-category-type": "public.app-category.productivity"
+  },
+  "devDependencies": {
+    "electron-packager": "^5.0.1",
+    "electron-prebuilt": "^0.30.3",
+    "electron-winstaller": "^2.3.0",
+    "grunt-electron-installer": "^2.1.0",
+	"electron-squirrel-startup":"^0.1.0"
+  },
+  "dependencies": {
+    "nconf": "^0.7.2"
+  }
+}

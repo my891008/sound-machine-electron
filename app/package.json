@@ -1,0 +1,12 @@
+{
+  "name": "ss",
+  "version": "0.1.0",
+  "main": "./main.js",
+  "private": true,
+  "description": "HolaStudio Release Version.",
+  "author": {
+    "name": "my",
+    "email": "c.lin@holaverse.com",
+    "url": "http://studio.holaverse.com"
+  }
+}
